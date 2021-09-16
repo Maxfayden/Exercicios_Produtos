@@ -51,6 +51,7 @@ public class Main {
 		for (Product product : products)
 		{
 			System.out.println(product.priceTag());
+			System.out.println();
 		}
 	
 	}
@@ -70,6 +71,7 @@ public class Main {
 			System.out.println("------------------------");
 			System.out.print("Option:");
 			op = Integer.parseInt(sc.next());
+			System.out.println("------------------------");
 			switch (op) {
 			case 1:
 				registerAnProduct(sc);
